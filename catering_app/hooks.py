@@ -242,6 +242,8 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+from catering_app.api import get_items
+
 
 fixtures = [
     {"doctype": "Custom Field", "filters": [["module", "=", "Catering"]]},
