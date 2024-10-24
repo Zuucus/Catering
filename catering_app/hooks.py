@@ -241,14 +241,16 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
+# 
 
-from catering_app.api import get_items
 
 
 fixtures = [
     {"doctype": "Custom Field", "filters": [["module", "=", "Catering"]]},
     {"doctype": "Property Setter", "filters": [["module", "=", "Catering"]]},
     {"doctype": "Print Format", "filters": [["module", "=", "Catering"]]},
-    {"doctype": "Client Script", "filters": [["module", "=", "Catering"]]}
+    {"doctype": "Client Script", "filters": [["module", "=", "Catering"]]},
+     {"doctype": "Workspace", "filters": [["module", "=", "Catering"]]},
+      {"doctype": "Report", "filters": [["module", "=", "Catering"]]}
 ]
 
